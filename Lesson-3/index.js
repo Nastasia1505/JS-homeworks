@@ -33,14 +33,15 @@ let h = 6;
    console.log(h)
  }
 
-// // Exercise 6
-// let r= 0;
-// for (let m = 2; m<=10; m++){
-//     for (let p = 0; p<=10; p++){
-// r= m*p;
-// console.log(m*p r)
-//     }
-// }
+// Exercise 6
+let r = 0;
+for (let m = 1; m < 10; m++) {
+    for (let p = 1; p < 10; p++) {
+        r = m * p;
+        console.log(m + '*' + p + '=' +r)
+    }
+}
+
 // Exercise 7
 
 for (let n = 1000; n>50; ) {
@@ -51,7 +52,28 @@ for (let n = 1000; n>50; ) {
     }
 
 // Exercise 8
+let e = 0,
+    o = 0,
+    ch;
+
+while ((ch = prompt("Введите число", 0)) !== "0" && ch != null) {
+    ++e;
+    o += +ch; // Перед ch надо для числа ставить плюс
+}
+
+alert("Чисел введено: " + e + "\n Сумма чисел: " + o
+    + "\n Среднее арифметическое: " + (o / e));
+    
 // Exercise 9
 let str = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57'
-
+let cur='', min, max;
+for (let i = 0; i < str.length; i++) {
+  cur += str[i];
+  if (+str[i] && !+str[i+1]) {
+    if (typeof min !== 'number' || cur < +min) min = +cur;
+    if (typeof max !== 'number' || cur > +max) max = +cur;
+    cur = '';
+  }
+}
+console.log('Min:', min, 'Max:', max)
 // Exercise 10
