@@ -42,14 +42,17 @@ for (let m = 1; m < 10; m++) {
     }
 }
 
-// Exercise 7
 
-for (let n = 1000; n>50; ) {
-// num = 5
-    n /= 2;
-    if (n<50){
-        console.log( n );}
-    }
+// Exercise 7
+num = 0;
+for (let n = 1000; n > 50; ) {
+  num += 1;
+  n /= 2;
+  if (n < 50) {
+    console.log(n);
+    console.log(num);
+  }
+}
 
 // Exercise 8
 let e = 0,
@@ -57,8 +60,15 @@ let e = 0,
     ch;
 
 while ((ch = prompt("Введите число", 0)) !== "0" && ch != null) {
+   
+
     ++e;
     o += +ch; // Перед ch надо для числа ставить плюс
+    // if (ch == " "){
+    //     alert("Только числа")
+        
+    // }
+   
 }
 
 alert("Чисел введено: " + e + "\n Сумма чисел: " + o
@@ -76,4 +86,23 @@ for (let i = 0; i < str.length; i++) {
   }
 }
 console.log('Min:', min, 'Max:', max)
+
 // Exercise 10
+let n = "12357821";
+let array = n.split("");
+console.log(array);
+let z = 0;
+for (let i = 0; i < n.length; i++) {
+  z = +i + 1;
+}
+console.log(z);
+
+function sum(array) {
+  let s = 0;
+  for (i = 0; i < array.length; i++) {
+    s += array[i];
+  }
+
+  return s;
+}
+console.log(s);
