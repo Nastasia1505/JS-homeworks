@@ -28,12 +28,25 @@ function max(a,b) {
 min(2,4)
 max(5,9)
 //Exercise 4
-function create (lenght){
+function create (){
     let arr = [];
-    for (let i = 0; i<lenght; i++){
-        arr.push(i);}
+    i = prompt ('Введите число')
+    for (; ; i++){
+        i = arr[i];
+        arr.push(i)
     }
-    create(6)
+// let z,
+// n= 0;
+// while ((z = prompt ('Введите число')) !== '' && z !== '0'){
+//     n =+z;
+// arr.push(n);
+// }
+// console.log(arr);
+// arr.sort(function(a,b){
+//     return a-b});
+//     console.log(arr);
+    }
+    
 //Exercise 5
 
 //Exercise 6

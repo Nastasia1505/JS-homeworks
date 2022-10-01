@@ -127,15 +127,26 @@ let sum = 0;
 n = 0;
 
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] = 0 && n !== 1 && sum !== 0) {
-    n++;
-    
-    if (arr[i+1] !== 0) {
-      sum += arr[i+1];
-     i++
+  if (arr[i] = 0){
+    for ( let j=0;j>0 ;j++){
+sum+=j
+
     }
-   
   }
-  n = 0;
 }
-console.log(sum);
+console.log(sum)
+
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] = 0 && n !== 1 && sum !== 0) {
+//     n++;
+    
+//     if (arr[i+1] !== 0) {
+//       sum += arr[i+1];
+//      i++
+//     }
+   
+//   }
+//   n = 0;
+// }
+// console.log(sum);
