@@ -44,10 +44,29 @@
 
 //Exercise 5
 
-let arr = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-for (let i =0; i<arr.length; i++){
+// let arr = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+// for (let i =0; i<arr.length; i++){
 
-    console.log(arr)
+//     console.log(arr[i])
 
+// }
+
+//Exercise 6
+
+//Exercise 7
+
+// //Exercise 8
+// let arr = [12, false, 'Текст', 4, 2, -5, 0];
+
+// console.log(arr.reverse());
+//Exercise 9
+let arr =  [5, 9, 21, , , 9, 78, , , , 6];
+num = 0;
+for ( let i = 0; i<arr.length; i++){
+   
+    if (i !== 'number'){
+        num += 1
+        console.log(num)
+    }
 }
-
+//Exercise 10
