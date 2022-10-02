@@ -122,19 +122,19 @@
 // console.log(sum);
 
 
-let arr = [1, 8, 0, 13, 76, 8, 7, 0, 22, 0, 2, 3, 2];
-let sum = 0;
-n = 0;
+// let arr = [1, 8, 0, 13, 76, 8, 7, 0, 22, 0, 2, 3, 2];
+// let sum = 0;
+// n = 0;
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] = 0){
-    for ( let j=0;j>0 ;j++){
-sum+=j
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] = 0){
+//     for ( let j=0;j>0 ;j++){
+// sum+=j
 
-    }
-  }
-}
-console.log(sum)
+//     }
+//   }
+// }
+// console.log(sum)
 
 
 // for (let i = 0; i < arr.length; i++) {
@@ -150,3 +150,26 @@ console.log(sum)
 //   n = 0;
 // }
 // console.log(sum);
+
+// Exercise 11
+// let height = +prompt(`Введите высоту треугольника`),
+// j,
+// str = [];
+
+// for (i = 0; i <= height; i++) {
+
+// for (j = 0; j < height + i; j++) {
+
+// if (j <= height - i) {
+// str.push(' ');
+// document.write(' ');
+// } else {
+// str.push('^');
+// document.write('^');
+// }
+// }
+
+// console.log(str.join(''));
+// document.write('</br>');
+// str = [];
+// }

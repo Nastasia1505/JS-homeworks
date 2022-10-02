@@ -28,28 +28,47 @@ function max(a,b) {
 min(2,4)
 max(5,9)
 //Exercise 4
-function create (){
+function createarr (){
     let arr = [];
-    i = prompt ('Введите число')
-    for (; ; i++){
-        i = arr[i];
-        arr.push(i)
+    let a,
+    b,
+    n=0;
+    while((a=prompt('Введите первое число')) !==''){
+        
+        n=+a;
+        arr.push(n);
+        b=prompt('Введите последнее число');
+        if (a>b){
+            break;
+        }
+       
     }
-// let z,
-// n= 0;
-// while ((z = prompt ('Введите число')) !== '' && z !== '0'){
-//     n =+z;
-// arr.push(n);
-// }
-// console.log(arr);
-// arr.sort(function(a,b){
-//     return a-b});
-//     console.log(arr);
-    }
+    console.log(arr)
+    // for (let i = 0; i<=length; i++){
+    //     arr.push(i);
+    // }
+    
+    // 
+}
+// createarr(5);
+
     
 //Exercise 5
 
+function isEven (a){
+    let b= a%2;
+
+    if (b==0){
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+
+isEven(7)
+
 //Exercise 6
+
 
 //Exercise 7
 
@@ -58,3 +77,9 @@ function create (){
 //Exercise 9
 
 //Exercise 10
+
+//Exercise 11
+
+//Exercise 12
+
+//Exercise 13
