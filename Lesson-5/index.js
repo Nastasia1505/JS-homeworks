@@ -68,7 +68,16 @@ function isEven (a){
 isEven(7)
 
 //Exercise 6
-
+function createArray (length){
+    let arr = [];
+    for (let i=0; i<length; i++){
+        arr.push(i);
+    }
+    console.log(arr)
+}
+function newarr(){
+    
+}
 
 //Exercise 7
 
