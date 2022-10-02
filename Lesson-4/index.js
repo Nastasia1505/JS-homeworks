@@ -152,6 +152,7 @@
 // console.log(sum);
 
 // Exercise 11
+
 // let height = +prompt(`Введите высоту треугольника`),
 // j,
 // str = [];
