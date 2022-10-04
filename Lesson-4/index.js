@@ -119,6 +119,11 @@
     
 //     n = 0;
 // }
+
+// 2 СПОСОБ 
+// for (let i = arr.indexOf(0)+1; i<=arr.lastIndexOf (0);i++){
+//     sum+=arr[i]
+// }
 // console.log(sum);
 
 
