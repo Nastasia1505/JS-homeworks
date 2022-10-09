@@ -9,20 +9,24 @@ let Contacts = function () {
     };
 
     this.access = function () {
-        while(this.age){
-        if (this.age < 18) {
-            alert('Access is denied')
+        console.log('before',this.age)
+        while(this.age < 18 || isNaN( this.age) ){
+            console.log(this.age)
             this.age = +prompt("How old are you?");
-            continue;
-        } else {
-            if (this.age % 2 == 0 || this.age % 2 == 1) {
-                break;
-            } else {
-                alert('Age entered incorrectly')
-                this.age = +prompt("How old are you?");
-              continue;
-            }
-        }
+
+        // if (this.age < 18 || typeof this.age === 'number' ) {
+        //     alert('Access is denied')
+        //     this.age = +prompt("How old are you?");
+        //     continue;
+        // } else {
+        //     if (this.age % 2 == 0 || this.age % 2 == 1) {
+        //         break;
+        //     } else {
+        //         alert('Age entered incorrectly')
+        //         this.age = +prompt("How old are you?");
+        //       continue;
+        //     }
+        // }
     }
 
         while (this.phone.length !== 13 || isNaN(this.phone)) {
@@ -45,5 +49,5 @@ let Contacts = function () {
 
 let contacts = new Contacts();
 contacts.get();
-let contacts1 = new Contacts();
-let contacts2 = new Contacts();
+// let contacts1 = new Contacts();
+// let contacts2 = new Contacts();
