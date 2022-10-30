@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-family: 'Poppins';
+    color: #3F3F3F;
+    font-size: 45px;
+}
+.text-info{
+    font-size: 16px;
+    color: #3F3F3F;
+}
